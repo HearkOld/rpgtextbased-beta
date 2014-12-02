@@ -1,7 +1,6 @@
 // file loader
-var rootf;
-load("")
-rootf("https://raw.githubusercontent.com/Heark/rpgtextbased-beta/master/")
+var rootf = "https://raw.githubusercontent.com/Heark/rpgtextbased-beta/master/"
+load();
 
 // Mongo Shell
 >mongo();
