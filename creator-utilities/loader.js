@@ -5,3 +5,6 @@ rootf("https://raw.githubusercontent.com/Heark/rpgtextbased-beta/master/")
 
 // Mongo Shell
 >mongo();
+
+// example
+load(rootf+"scripts.js");
