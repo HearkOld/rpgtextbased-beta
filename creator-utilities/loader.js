@@ -1,9 +1,11 @@
-// file loader
-var rootf = "https://raw.githubusercontent.com/Heark/rpgtextbased-beta/master/"
-load();
-mongo = new function();
-// Mongo Shell
-mongo();
+function load(filename, filetype){
+ if (filetype=="js"){ 
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
 
-// example
-load(rootf+"scripts.js");
+load("myscript.js", "js") 
