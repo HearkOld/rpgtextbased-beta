@@ -19,22 +19,12 @@ body {
 <body>
 <center><img src="images/gamelogo.png" alt="Logo"></center>
 <!-- Game is below -->
-<script>function load(filename, filetype){
- if (filetype=="js"){ 
-  var fileref=document.createElement('script')
-  fileref.setAttribute("type","text/javascript")
-  fileref.setAttribute("src", filename)
- }
- if (typeof fileref!="undefined")
-  document.getElementsByTagName("head")[0].appendChild(fileref)
-}
-
+<script src="creator-utilities/loader.js">
 load("characters.js", "js");
 load("classes.js", "js");
 load("enemies.js", "js");
-
 </script>
-<script src="https://raw.githubusercontent.com/Heark/rpgtextbased-beta/master/main.js"></script>
+<script src="main.js"></script>
 <font color=cyan><b><hr /></b></font>
 <center><button onclick="startGame()">Click me</button></center>
 </body>
