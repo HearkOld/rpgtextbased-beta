@@ -8,4 +8,3 @@ function load(filename, filetype){
   document.getElementsByTagName("head")[0].appendChild(fileref)
 }
 
-load("myscript.js", "js") 
