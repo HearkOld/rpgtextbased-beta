@@ -2,6 +2,10 @@ rpgtextbased-beta
 =================
 Info: Rpg text based
 
-How github plays a part
+How to test
 =======================
-The website server is connected to github, so any changes made to Main.js will be reflected.
+1. Click download zip
+2. Open the zipped file
+3. open index.html
+4. click "Start game" button.
+5. have fun
