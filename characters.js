@@ -18,3 +18,4 @@ var Item = function(name, desc, effect, drop){
   this.effect = effect;
   this.drop = drop;
 }
+var player = new Player(225, 5, 5, 5);
