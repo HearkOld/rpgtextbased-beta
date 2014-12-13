@@ -1,6 +1,7 @@
 rpgtextbased-beta
 =================
 Info: Rpg text based
+Game is being hosted at http://www.rpgtb.eu.pn/
 
 How to test
 =======================
