@@ -1,6 +1,5 @@
 // Main
 function startGame() {
-  loadCharacters();
   var cant_walk = false;
   var in_battle = false;
 var x = document.createElement("div");
