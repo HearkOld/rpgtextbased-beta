@@ -15,7 +15,7 @@ function walk() { if (cant_walk = false){
 document.body.appendChild(x);  
     cant_walk = true;
   } else if (num <= 5){
-       x.textContent = "Nothing");         
+       x.textContent = "Nothing";         
 document.body.appendChild(x);  
   }
 } else if (cant_walk = true){
@@ -33,6 +33,7 @@ document.body.appendChild(x);
         x.textContent = ""+selectedmonster.name+ " has "+selectedmonster.health+ " hp left";         
 document.body.appendChild(x);  
   }
+}
 }
 }
 }
