@@ -33,7 +33,11 @@ load('debugger.js', 'js');
 </script>
 <center>By Happy Burglar Media(Heark)</center>
 <font color=cyan><b><hr /></b></font>
-<center><input type="button" onclick="startGame();loadCharacters();" value="LoadingGameAssets"/></center>
+<center><script>document.getElementById( 'Load' ).onclick = function()
+{
+    startGame();
+    loadCharacters();
+};</script></center>
 <center><button onclick="walk()">Walk</button><button onclick="attack()">Attack</button><button onclick="skills()">Skills</button><button onclick="Inventory()">Inventory</button><button onclick="debug()">Debug</button></center>
 </body>
 </html>
