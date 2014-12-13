@@ -3,8 +3,8 @@ function startGame() {
   var cant_walk = false;
   var in_battle = false;
 var plname = prompt("What's your name pal?");
-var x = document.createElement("div");  // Creates a new <div> node
-x.textContent = "Hello " +plname;         // Sets the text content
+var x = document.createElement("div");
+x.textContent = "Hello " +plname;         
 document.body.appendChild(x);  
 function walk() { if (cant_walk = false){
   var num = Math.floor((Math.random() * 10) + 1);
@@ -19,7 +19,7 @@ document.body.appendChild(x);
 document.body.appendChild(x);  
   }
 } else if (cant_walk = true){
-  x.textContent = "You cannot walk now!";         // Sets the text content
+  x.textContent = "You cannot walk now!";       
 document.body.appendChild(x);  
 }
 function attack() {
