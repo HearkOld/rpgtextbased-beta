@@ -31,13 +31,15 @@ load('debugger.js', 'js');
 //		alert('Battle Begun!')
 //	}
 </script>
+<script src="debugger.js">
+	
+</script>
+<script src="characters.js">
+	
+</script>
 <center>By Happy Burglar Media(Heark)</center>
 <font color=cyan><b><hr /></b></font>
-<center><script>document.getElementById( 'Load' ).onclick = function()
-{
-    startGame();
-    loadCharacters();
-};</script></center>
+<center><button onclick="startGame()"></button></center>
 <center><button onclick="walk()">Walk</button><button onclick="attack()">Attack</button><button onclick="skills()">Skills</button><button onclick="Inventory()">Inventory</button><button onclick="debug()">Debug</button></center>
 </body>
 </html>
