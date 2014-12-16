@@ -1,6 +1,4 @@
 // Characters
-function loadCharacters(){
-var plname = prompt("What's your name pal?");
 var Player = function(hp, def, att, spa){
   this.hp = hp;
   this.def = def;
@@ -16,4 +14,3 @@ var Enemy = function(name, hp, att, def, spa){
   this.spa = spa;
 }
 var player = new Player(225, 5, 5, 5);
-}
