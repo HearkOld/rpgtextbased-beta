@@ -5,6 +5,17 @@
 		var int = "int.main"
 		console.log(int)
 	</script>
+	<script src="creator-utilities/loader.js">
+load("main.js", "js")l
+load("characters.js", "js");
+load("classes.js", "js");
+load("enemies.js", "js");
+load("mob.js", "js")
+document.getElementById( 'startGame()' ).onclick = function()
+{
+    startGame();
+};
+</script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>RPG Game</title>
 <style type="text/css">
@@ -23,17 +34,7 @@ body {
 <body>
 <center><img src="images/gamelogo.png" alt="Logo"></center>
 <!-- Game is below -->
-<script src="creator-utilities/loader.js">
-load("main.js", "js")l
-load("characters.js", "js");
-load("classes.js", "js");
-load("enemies.js", "js");
-load("mob.js", "js")
-document.getElementById( 'startGame()' ).onclick = function()
-{
-    startGame();
-};
-</script>
+
 <center>By Happy Burglar Media(Heark)</center>
 <font color=cyan><b><hr /></b></font>
 <center><button onclick="startGame()">Start Game</button></center>
