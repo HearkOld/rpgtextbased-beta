@@ -9,8 +9,11 @@ x.textContent = "Hello " +plname;
 document.body.appendChild(x);  
 }
 function walk() {
-  if(game_on == true){
+if(game_on == true){
   x.textContent = "Player walks...";         
 document.body.appendChild(x);  
+} else {
+    x.textContent = "You don't walk.";         
+document.body.appendChild(x); 
 }
 }
