@@ -8,7 +8,7 @@ function load(filename, filetype){
  var x = document.createElement("div");  
 x.textContent = "Loading..." +this.filename;         
 document.body.appendChild(x);  
- if (typeof fileref!="undefined")
+ if (typeof fileref!="undefined"){
   document.getElementsByTagName("head")[0].appendChild(fileref)
 }
 load("main.js", "js");
