@@ -7,13 +7,14 @@ var plname = prompt("What's your name pal?");
 var x = document.createElement("div");  
 x.textContent = "Hello " +plname;         
 document.body.appendChild(x);  
-},
+}
 function walk() {
 if(game_on == true){
-  x.textContent = "Player walks...";         
-document.body.appendChild(x);  
+var w = document.createElement("div"); 
+  w.textContent = "Player walks...";         
+document.body.appendChild(w);  
 } else {
-    x.textContent = "You don't walk.";         
-document.body.appendChild(x); 
+    w.textContent = "You don't walk.";         
+document.body.appendChild(w); 
 }
 }
