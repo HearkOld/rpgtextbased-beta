@@ -9,7 +9,7 @@ var bat = new Enemy('Bat', 65, 6, 6, 6);
 // selected monster
 function startBattle(){
   getNum()
-w.textContent = "You ran into a "+selectedmonster.name         
+w.textContent = "You ran into a "+selectedmonster.name;         
 document.body.appendChild(w);
 }
 var selectedmonster;
