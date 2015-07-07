@@ -12,7 +12,7 @@ document.body.appendChild(x);
 function walk() {
 if(game_on == true){
 var w = document.createElement("div"); 
-w.textContent = "Player walks...";         
+w.textContent = player.hp;         
 document.body.appendChild(w);  
 }
 }
