@@ -30,7 +30,16 @@ document.body.appendChild(x);
 function walk() {
 if(game_on == true){
 var w = document.createElement("div"); 
-w.textContent = player.hp;         
-document.body.appendChild(w);  
+w.textContent = "You walk..."         
+document.body.appendChild(w);
+var num = Math.floor((Math.random() * 200) + 1);
+ if (num > 1 && windowsize < 50) {
+  start_battle()
+} else if(num > 51 && windowsize < 100){
+ w.textContent = "You find nothing."         
+document.body.appendChild(w);
+}  else if(num > 101 && windowsize < 150){
+ w.textContent = "You find something."         
+document.body.appendChild(w);
 }
 }
