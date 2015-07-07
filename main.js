@@ -1,4 +1,22 @@
 // Main
+function load(filename, filetype){
+ if (filetype=="js"){ 
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ var x = document.createElement("div");  
+x.textContent = "Loading..." +this.filename;         
+document.body.appendChild(x);  
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+load("main.js", "js");
+load("characters.js", "js");
+load("classes.js", "js");
+load("enemies.js", "js");
+load("mob.js", "js");
+
   var cant_walk = false;
   var in_battle = false;
   var game_on;
