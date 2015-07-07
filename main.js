@@ -9,12 +9,8 @@ x.textContent = "Hello " +plname;
 document.body.appendChild(x);  
 }
 function walk() {
-if(game_on == true){
 var w = document.createElement("div"); 
   w.textContent = "Player walks...";         
 document.body.appendChild(w);  
-} else {
-    w.textContent = "You don't walk.";         
-document.body.appendChild(w); 
 }
-}
+
