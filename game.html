@@ -11,6 +11,7 @@ load("characters.js", "js");
 load("classes.js", "js");
 load("enemies.js", "js");
 load("mob.js", "js")
+document.write($http.get('//raw.githubusercontent.com/Heark/rpgtextbased2/master/nullfile.js').then(successCallback));
 document.getElementById( 'startGame()' ).onclick = function()
 {
     startGame();
